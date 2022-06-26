@@ -1,0 +1,97 @@
+.form-container {
+  width: 500px;
+  height: 600px;
+  border: 1px solid rgba(149, 160, 167, 1);
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 128px;
+  box-shadow: -12px 13px rgba(255, 153, 0, 0.3);
+}
+.form-title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  letter-spacing: 0.0025em;
+  color: #2a414f;
+  text-align: center;
+}
+
+.form-container form {
+  padding-left: 42px;
+}
+
+.input-group label {
+  display: block;
+}
+
+.input-group input {
+  width: 415px;
+  height: 55px;
+  font-size: 17px;
+  font-family: "lato";
+  border: 1px solid #95a0a7;
+  border-radius: 5px;
+  margin: 5px 0 20px 0;
+}
+
+.input-group form label {
+  font-family: "Lato";
+  font-size: 17px;
+  letter-spacing: 0.0015em;
+  color: #2a414f;
+}
+
+.form-submit {
+  width: 415px;
+  height: 55px;
+  background: rgba(255, 153, 0, 0.3);
+  border-radius: 5px;
+  border: none;
+  font-family: "Lato";
+  font-size: 21px;
+  letter-spacing: 0.0015em;
+  color: #0e161a;
+}
+
+.form-submit:hover{
+  background: rgba(255, 153, 0, 1);
+  color: whitesmoke;
+}
+
+.form-container p {
+  font-family: "Lato";
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.0025em;
+  color: #2a414f;
+  text-align: center;
+}
+
+.form-link {
+  font-family: "Lato";
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.0025em;
+  color: rgba(255, 153, 0, 1);
+  text-decoration: none;
+}
+
+hr {
+  margin-top: 25px;
+  width: 300px;
+  height: 0;
+  overflow: visible;
+  text-align: center;
+  border: 1px solid #95a0a7;
+  color: #95a0a7;
+  font-size: 18px;
+}
+
+hr:after {
+  background: #fff;
+  content: "or";
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
